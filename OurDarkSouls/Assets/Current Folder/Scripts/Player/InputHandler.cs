@@ -274,7 +274,7 @@ namespace SG
                 cameraManager.currentLockOnTarget = cameraManager.RightLockTarget;
               }
             }
-
+            if(cameraManager !=null)
             cameraManager.SetCameraHeigh();
           }
 

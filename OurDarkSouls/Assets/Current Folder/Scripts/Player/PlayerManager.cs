@@ -60,7 +60,8 @@ namespace SG
             playerLocomotionManager.HandleRollingAndSprinting(delta);
             playerLocomotionManager.HandleJumping();
             playerStatsManager.RegenerateStamina();
-
+            
+            if(cameraHandler !=null)
             CheckForInteractableObject();
         }
 
